@@ -7,6 +7,6 @@ describe('findItemsOver' , function(){
     it('which person is older than 40' , function(){
         assert.deepEqual(findItemsOver([
             {name : 'May', qty : 10},
-            {name : 'James', qty : 37}],25), [ { name: 'Jemes', qty: 37 } ])
+            {name : 'James', qty : 37}],25), [ { name: 'James', qty: 37 } ])
     });
 });
