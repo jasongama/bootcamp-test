@@ -1,11 +1,11 @@
 describe(' countRegNumber' , function(){
-    it(' returns the number of registration numbers in the string' , function(){
+    it(' It will count that it have three registration numbers in the string' , function(){
         assert.equal( countRegNumber('CA 182736,CY 523519,CJ 812328') , 3)
     });
-    it(' returns the number of registration numbers in the string (2)' , function(){
+    it(' It will return two if it has two registration numbers in the string ' , function(){
         assert.equal( countRegNumber('CA 182736,CY 523519') , 2)
     });
-    it(' returns the number of registration numbers in the string' , function(){
-        assert.equal( countRegNumber('CA 42665, AA 12 RT GP') , 2)
+    it(' It will return one if it has one registration numbers in the string' , function(){
+        assert.equal( countRegNumber('CA 42665') , 1)
     });
 });

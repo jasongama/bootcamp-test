@@ -1,11 +1,11 @@
 describe('yearsAgo' , function(){
-    it('return how many years ago that was' , function(){
+    it('It will subract 1993 to 2019 and the expected answer is 26' , function(){
         assert.equal(yearsAgo('1993'), 26)
     });
-    it('return how many years ago that was' , function(){
+    it('It will subract 1997 to 2019 and the expected answer is 22' , function(){
         assert.equal(yearsAgo('1997'), 22)
     });
-    it('return how many years ago that was' , function(){
+    it('It will subract 2020 to 2019 and the expected answer is -1' , function(){
         assert.equal(yearsAgo('2020'), -1)
     });
 });
