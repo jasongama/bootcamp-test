@@ -2,7 +2,7 @@
     function findItemsOver(shop, threshold) {
         var pull =[];
           for(var i= 0; i<shop.length; i++){
-          if(shop[i].qty > threshold){
+          if(shop[i].age > threshold){
           
           pull.push(shop[i]);
           }
